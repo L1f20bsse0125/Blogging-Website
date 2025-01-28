@@ -29,4 +29,4 @@ jobs:
           node-version: '14'
       - run: npm install
       - name: Build website
-        run: npx parcel build src/index.html --out-dir build
+        run: npx parcel build src/index.html --dist-dir build
