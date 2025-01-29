@@ -53,12 +53,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-.header {
-  height: 400px;
-  background-image: url('../img/user.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-}
+
 
 body {
   margin: 0;

@@ -36,12 +36,6 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - name: Verify required files
-        run: |
-          if [ ! -f "img/header.jpg" ]; then
-            echo "Error: img/header.jpg not found."
-            exit 1
-          fi
       - name: Build website
         run: npx parcel build index.html --dist-dir build
       - name: Upload artifact
