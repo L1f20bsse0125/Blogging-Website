@@ -4,15 +4,18 @@
     "description": "Assignment 4",
     "author": "Muhammad Kashif",
     "contributors": [
-      {
-        "name": "Mubbashra Anwar",
-        "role": "Instructor"
-      }
+        {
+            "name": "Mubbashra Anwar",
+            "role": "Instructor"
+        }
     ],
     "custom": {
-      "type": "blogging website",
-      "subject": "DevOps",
-      "university": "UCP",
-      "username": "l1f20bsse0125"
+        "type": "blogging website",
+        "subject": "DevOps",
+        "university": "UCP",
+        "username": "l1f20bsse0125"
+    },
+    "dependencies": {
+        "jquery": "^3.7.1"
     }
-  }
+}
