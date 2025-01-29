@@ -51,7 +51,9 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
-}.header {
+}
+
+.header {
   height: 400px;
   background-image: url('../img/user.jpg');
   background-position: top;
